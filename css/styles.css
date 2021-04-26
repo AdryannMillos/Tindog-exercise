@@ -68,15 +68,7 @@ p {
   position: absolute;
 }
 
-@media (max-width: 1028px) {
-  #title { text-align: center;
-  }
-  .dog-img{
-    position: static;
-    transform: rotate(0);
-  }
 
-}
 
 /* IDEA: features section */
 #features {
@@ -190,4 +182,12 @@ p {
 
 /* IDEA: MediaQuery */
 
+@media (max-width: 1028px) {
+  #title { text-align: center;
+  }
+  .dog-img{
+    position: static;
+    transform: rotate(0);
+  }
 
+}
