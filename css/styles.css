@@ -61,7 +61,7 @@ p {
 .dgi {
   position: relative;
 }
-
+media (
 .dog-img {
   width: 60%;
   transform: rotate(25deg);
@@ -176,4 +176,17 @@ p {
 
 .i-redes {
   margin: 5px 5px 25px;
+}
+
+/* IDEA: MediaQuery */
+
+
+@media (max-width: 1028px) {
+  #title { text-align: center;
+  }
+  .dog-img{
+    position: static;
+    transform: rotate(0);
+  }
+
 }
